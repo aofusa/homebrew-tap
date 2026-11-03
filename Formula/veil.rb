@@ -7,22 +7,22 @@ class Veil < Formula
   # One universal2 archive for both Apple silicon and Intel.
   on_macos do
     on_arm do
-      url "https://github.com/aofusa/veil-proxy/releases/download/v0.9.2/veil-0.9.2-universal2-apple-darwin.tar.gz"
-      sha256 "dfcf857179313085859f8ca58a6ad36218a80aa245a1199c20d5e296a78c07d6"
+      url "https://github.com/aofusa/veil-proxy/releases/download/v0.10.0/veil-0.10.0-universal2-apple-darwin.tar.gz"
+      sha256 "6378a7c86e0660fe0f1a7040c4097371a55d466438d6243f1ff4eb10aa5f952e"
     end
     on_intel do
-      url "https://github.com/aofusa/veil-proxy/releases/download/v0.9.2/veil-0.9.2-universal2-apple-darwin.tar.gz"
-      sha256 "dfcf857179313085859f8ca58a6ad36218a80aa245a1199c20d5e296a78c07d6"
+      url "https://github.com/aofusa/veil-proxy/releases/download/v0.10.0/veil-0.10.0-universal2-apple-darwin.tar.gz"
+      sha256 "6378a7c86e0660fe0f1a7040c4097371a55d466438d6243f1ff4eb10aa5f952e"
     end
   end
   on_linux do
     on_intel do
-      url "https://github.com/aofusa/veil-proxy/releases/download/v0.9.2/veil-0.9.2-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "715a76d702a4ddb305ea96f3b855aeae1c3e3d1aa6be532beb7ddc8cc8769456"
+      url "https://github.com/aofusa/veil-proxy/releases/download/v0.10.0/veil-0.10.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "a45a16d02a9c1d9debdc2d60025833d9332a40c9ed5f572e1c62c3ad85c3fcbd"
     end
     on_arm do
-      url "https://github.com/aofusa/veil-proxy/releases/download/v0.9.2/veil-0.9.2-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "6a7b70e18544363abe95c31d623cca54a4d64f693ae4c8b142d1094bedae4f59"
+      url "https://github.com/aofusa/veil-proxy/releases/download/v0.10.0/veil-0.10.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "c2d225b45869bff83bd9e68a557f195dd35925a18bb88cd8142200440aab818b"
     end
   end
 
